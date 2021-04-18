@@ -94,6 +94,13 @@ nav a:hover {
   text-align: center;
   justify-content: center;
   vertical-align: middle;
+  position: relative;
+}
+.circle span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .Training-clase__photo > div {
@@ -161,6 +168,10 @@ th, .time {
 
 footer span i {
   color: #f13a11;
+}
+
+tr > td {
+  min-width: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

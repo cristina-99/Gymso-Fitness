@@ -95,8 +95,17 @@ nav{
     text-align: center;
     justify-content: center;
     vertical-align: middle;
-
+    position: relative;
+    
+    span{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
 }
+
+
 .Training-clase__photo{
     >div{
         margin: 10px;
@@ -163,3 +172,7 @@ footer{
     }
 }
 
+
+tr>td{
+    min-width: 100px;
+}
