@@ -10,25 +10,67 @@
     <title>Gymso Fitness</title>
 </head>
 <body>
-    <header class="">
-        <div class="w-4/5 m-auto header-top flex justify-between items-center py-4 ">
-            <h1 class="text-3xl font-bold">Gymso Fitness</h1>
-            <button class=" lg:hidden"><i class="fas fa-bars"></i></button>
+ 
+    <header class="menu-background">
+        <section class="fixed w-full z-50">
+            <section id="nav-container" class="relative menu-background overflow-hidden flex flex-col lg:flex-row lg:items-center justify-start lg:justify-around h-20 p-3 pb-0">
+                <h1 class="w-full lg:w-auto text-3xl font-bold mb-5 lg:mb-0">Gymso Fitness</h1>
+                <!-- <h1 class="text-3xl font-bold">Gymso Fitness</h1> -->
+                <button id="nav-button" class="absolute right-3 lg:hidden"><i class="fas fa-bars"></i></button>
 
-            <section class="hidden lg:block menu"> 
-                <nav class="flex">
-                    <a href="" class="mx-6 text-sm">HOME</a>
-                    <a href="" class="mx-6 text-sm">ABOUT US</a>
-                    <a href="" class="mx-6 text-sm">CLASSES</a>
-                    <a href="" class="mx-6 text-sm">SCHEDULES</a>
-                    <a href="" class="mx-6 text-sm">CONTACT</a>
+                <nav class="w-full lg:w-auto flex flex-col lg:flex-row ">
+                    <a href="" class="px-20 py-3 lg:p-0  text-center mx-6 text-sm">HOME</a>
+                    <a href="" class="px-20 py-3 lg:p-0 text-center mx-6 text-sm">ABOUT US</a>
+                    <a href="" class="px-20 py-3 lg:p-0 text-center mx-6 text-sm">CLASSES</a>
+                    <a href="" class="px-20 py-3 lg:p-0 text-center mx-6 text-sm">SCHEDULES</a>
+                    <a href="" class="px-20 py-3 lg:p-0 text-center mx-6 text-sm">CONTACT</a>
                 </nav>
-                <div class="icons">
+
+                <section class="w-full lg:w-auto icons flex justify-center">
+                    <a href="" class="mx-2"><span><i class="fab fa-facebook-f"></i></span></a>
+                    <a href="" class="mx-2"><span><i class="fab fa-twitter"></i></span></a>
+                    <a href=""class="mx-2"><span><i class="fab fa-instagram"></i></span></a>
+                </section>
+                <!-- <section id="nav-menu" class="menu-background hidden w-full justify-center absolute z-10 right-0 top-10 lg:w-auto lg:flex lg:flex-row lg:w-auto menu"> 
+                    <nav class="flex flex-col lg:flex-row ">
+                        <a href="" class="px-20 py-3 lg:p-0  text-center mx-6 text-sm">HOME</a>
+                        <a href="" class="px-20 py-3 lg:p-0 text-center mx-6 text-sm">ABOUT US</a>
+                        <a href="" class="px-20 py-3 lg:p-0 text-center mx-6 text-sm">CLASSES</a>
+                        <a href="" class="px-20 py-3 lg:p-0 text-center mx-6 text-sm">SCHEDULES</a>
+                        <a href="" class="px-20 py-3 lg:p-0 text-center mx-6 text-sm">CONTACT</a>
+                    </nav>
+                    <div class="icons flex justify-center">
+                        <a href="" class="mx-2"><span><i class="fab fa-facebook-f"></i></span></a>
+                        <a href="" class="mx-2"><span><i class="fab fa-twitter"></i></span></a>
+                        <a href=""class="mx-2"><span><i class="fab fa-instagram"></i></span></a>
+                    </div>
+                </section> -->
+            </section>
+        </section>
+
+
+
+
+
+
+        <div class="overflow-visible relative w-4/5 m-auto header-top flex justify-between items-center py-4 ">
+            <!-- <h1 class="text-3xl font-bold">Gymso Fitness</h1>
+            <button id="nav-button" class="lg:hidden"><i class="fas fa-bars"></i></button>
+
+            <section id="nav-menu" class="menu-background hidden w-full justify-center absolute z-10 right-0 top-10 lg:w-auto lg:flex lg:flex-row lg:w-auto menu"> 
+                <nav class="flex flex-col lg:flex-row ">
+                    <a href="" class="px-20 py-3 lg:p-0  text-center mx-6 text-sm">HOME</a>
+                    <a href="" class="px-20 py-3 lg:p-0 text-center mx-6 text-sm">ABOUT US</a>
+                    <a href="" class="px-20 py-3 lg:p-0 text-center mx-6 text-sm">CLASSES</a>
+                    <a href="" class="px-20 py-3 lg:p-0 text-center mx-6 text-sm">SCHEDULES</a>
+                    <a href="" class="px-20 py-3 lg:p-0 text-center mx-6 text-sm">CONTACT</a>
+                </nav>
+                <div class="icons flex justify-center">
                     <a href="" class="mx-2"><span><i class="fab fa-facebook-f"></i></span></a>
                     <a href="" class="mx-2"><span><i class="fab fa-twitter"></i></span></a>
                     <a href=""class="mx-2"><span><i class="fab fa-instagram"></i></span></a>
                 </div>
-            </section>
+            </section> -->
 
 
 
@@ -293,6 +335,6 @@
         </section>
     </footer>
 </body>
-<script src="./script/app.js"></script>
+<script src="./script/menu.js"></script>
 <script src="https://kit.fontawesome.com/17e48d5a94.js" crossorigin="anonymous"></script>
 </html>

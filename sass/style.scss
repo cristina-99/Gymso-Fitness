@@ -1,4 +1,12 @@
 @import 'variables.scss';
+@import 'menu.scss';
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 header{
     background-color: $dark-color;
     color: $white;
@@ -154,3 +162,4 @@ footer{
         }
     }
 }
+
