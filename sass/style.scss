@@ -1,0 +1,155 @@
+@import 'variables.scss';
+header{
+    background-color: $dark-color;
+    color: $white;
+}
+.header-center{
+    // background-image: url("/images/hero-bg.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: linear-gradient( rgba(23, 24, 25,0) 0%,rgba(23, 24, 25,0.9) 100%), url("/images/hero-bg.jpg");
+}
+nav{
+    a{
+        &:hover{
+            color: $primary-color;
+            transition: .5s;
+        }
+    }
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    p{
+        color: $gray-color;
+    }
+    .get-started{
+      color: $white;
+      border: 2px solid transparent;
+      &:hover{
+          color: $primary-color;
+          transition: .5s;
+      }
+    }
+    .learn-more{
+        color: $primary-color;
+        border: 2px solid $primary-color;
+        &:hover{
+            background-color: $white;
+            border: 2px solid $white;
+            transition: .5s;
+        }
+    }
+}
+.Working{
+    background-color: $dark-color;
+    color: $white;
+}
+.about-working{
+    // background-color: red;
+    width: 100%;
+    p{
+        font-size: 18px;
+        color: $gray-color;
+    }
+    .btn-member{
+        background-color: $primary-color;
+        &:hover{
+            background-color: $white;
+            color: $primary-color;
+        }
+    }
+    >div:first-child{
+        border-right: 2px solid $p-color;
+    }
+}
+
+.about-us{
+    background-color: $about-bg-color;
+    &__information{
+        >div{
+            box-shadow: 3px 5px 5px #888888;
+        }
+    }
+    span{
+        color: #404040;
+    }
+}
+.circle{
+    background-color: $primary-color;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+
+}
+.Training-clase__photo{
+    >div{
+        margin: 10px;
+    }
+    &__text{
+        color: $gray-color;
+    }
+}
+input{
+    height: 50px;
+}
+textarea{
+    height: 100px;
+}
+input, textarea{
+    border: 1px solid $dark-color;
+}
+iframe{
+    width: 100%;
+}
+.btn-send{
+    background-color: $dark-color;
+    color: $white;
+    &:hover{
+        background-color: $primary-color;
+        transition: .5s;
+    }
+}
+.RioDeJaneiro{
+    span{
+        i{
+            color: $primary-color;
+        }
+    }
+}
+.tableTime{
+    color: $white;
+    overflow-x: scroll;
+}
+table, th, td {
+    border: 1px solid #212122;
+    border-collapse: collapse;
+}
+table{
+    p{
+        color: $p-color;
+    }
+}
+th, .time{
+    background-color: $primary-color;
+    height: 50px;
+}
+.time{
+    height: 70px;
+}
+.schedule{
+    background-color: $dark-color;
+}
+footer{
+    span{
+        i{
+            color: $primary-color;
+        }
+    }
+}

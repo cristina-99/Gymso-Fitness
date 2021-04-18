@@ -1,0 +1,155 @@
+header {
+  background-color: #171819;
+  color: #fff;
+}
+
+.header-center {
+  height: 100vh;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(23, 24, 25, 0) 0%, rgba(23, 24, 25, 0.9) 100%), url("/images/hero-bg.jpg");
+}
+
+nav a:hover {
+  color: #f13a11;
+  transition: 0.5s;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered p {
+  color: #909090;
+}
+.centered .get-started {
+  color: #fff;
+  border: 2px solid transparent;
+}
+.centered .get-started:hover {
+  color: #f13a11;
+  transition: 0.5s;
+}
+.centered .learn-more {
+  color: #f13a11;
+  border: 2px solid #f13a11;
+}
+.centered .learn-more:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  transition: 0.5s;
+}
+
+.Working {
+  background-color: #171819;
+  color: #fff;
+}
+
+.about-working {
+  width: 100%;
+}
+.about-working p {
+  font-size: 18px;
+  color: #909090;
+}
+.about-working .btn-member {
+  background-color: #f13a11;
+}
+.about-working .btn-member:hover {
+  background-color: #fff;
+  color: #f13a11;
+}
+.about-working > div:first-child {
+  border-right: 2px solid #666262;
+}
+
+.about-us {
+  background-color: #f9f9f9;
+}
+.about-us__information > div {
+  box-shadow: 3px 5px 5px #888888;
+}
+.about-us span {
+  color: #404040;
+}
+
+.circle {
+  background-color: #f13a11;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.Training-clase__photo > div {
+  margin: 10px;
+}
+.Training-clase__photo__text {
+  color: #909090;
+}
+
+input {
+  height: 50px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input, textarea {
+  border: 1px solid #171819;
+}
+
+iframe {
+  width: 100%;
+}
+
+.btn-send {
+  background-color: #171819;
+  color: #fff;
+}
+.btn-send:hover {
+  background-color: #f13a11;
+  transition: 0.5s;
+}
+
+.RioDeJaneiro span i {
+  color: #f13a11;
+}
+
+.tableTime {
+  color: #fff;
+  overflow-x: scroll;
+}
+
+table, th, td {
+  border: 1px solid #212122;
+  border-collapse: collapse;
+}
+
+table p {
+  color: #666262;
+}
+
+th, .time {
+  background-color: #f13a11;
+  height: 50px;
+}
+
+.time {
+  height: 70px;
+}
+
+.schedule {
+  background-color: #171819;
+}
+
+footer span i {
+  color: #f13a11;
+}
+
+/*# sourceMappingURL=style.css.map */
