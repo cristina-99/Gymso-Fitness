@@ -18,7 +18,7 @@ header {
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
-  background: linear-gradient(rgba(23, 24, 25, 0) 0%, rgba(23, 24, 25, 0.9) 100%), url("/images/hero-bg.jpg");
+  background: linear-gradient(rgba(23, 24, 25, 0) 0%, rgba(23, 24, 25, 0.9) 100%), url("../images/hero-bg.jpg");
 }
 
 nav a:hover {
@@ -172,6 +172,13 @@ footer span i {
 
 tr > td {
   min-width: 100px;
+}
+
+@media (min-width: 1024px) {
+  .tableTime {
+    color: #fff;
+    overflow-x: hidden;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
